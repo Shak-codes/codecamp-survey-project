@@ -1,45 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
-body * {
-    font-family: ABeeZee;
-    text-align: center;
-}
-
 * {
     background-color: aquamarine;
 }
 
+body {
+    font-family: ABeeZee;
+    text-align: center;
+}
+
+
+#description {
+    text-align: center;
+}
+
 #name {
-    width: 30%;
     height: auto;
     border: 2px solid black;
     background-color: whitesmoke;
 }
 
 #email {
-    width: 30%;
     height: auto;
     border: 2px solid black;
     background-color: whitesmoke;
 }
 
 #number {
-    width: 30%;
     height: auto;
     border: 2px solid black;
     background-color: whitesmoke;
 }
 
 #dropdown {
-    width: 30%;
     height: auto;
     border: 2px solid black;
     background-color: whitesmoke;
 }
 
 #additional-comments {
-    width: 30%;
     height: auto;
     border: 2px solid black;
     background-color: whitesmoke;
+}
+
+#submit {
+    background-color: whitesmoke;
+}
+
+#submit:hover {
+    background-color:thistle;
 }
