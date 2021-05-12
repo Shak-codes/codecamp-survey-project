@@ -13,10 +13,10 @@
 
     <body>
 
-        <div id="form">
+        <!-- Description of form -->
+        <p id="description">Fill out your thoughts below on Shak.</p>
 
-            <!-- Description of form -->
-            <p id="description">Fill out your thoughts below on Shak.</p>
+        <div id="form">
 
             <!-- Form -->
             <form id="survey-form">
@@ -43,19 +43,19 @@
                     <option value="bad-player">Not that good honestly, I'm better than him</option>
                     <option value="awful-player">He only wins because he gets carried by FTWin, practically nothing without that team</option>
                 </select>
-                <br>
+                <br><br>
 
                 <!-- Radio input -->
-                <p>Rate Shak as best you can out of ten through the options below</p>
                 
+                <label id="radio-text">How would you rate Shak from the options below?</label><br>
                 <label id="amazing-skill"><input id="amazing-skill" name="skill-level" type="radio" value="10">10</label>
                 <label id="good-skill"><input id="good-skill" name="skill-level" type="radio" value="7-9">7-9</label>
                 <label id="decent-skill"><input id="decent-skill" name="skill-level" type="radio" value="4-6">4-6</label>
                 <label id="awful-skill"><input id="awful-skill" name="skill-level" type="radio" value="1-3">1-3</label>
+                <br><br>
 
                 <!-- Checkbox input -->
-                <p>How would you describe Shak? (Choose all that apply)</p>
-
+                <label id="checkbox-text">How would you describe Shak? (Choose all that apply)</label><br>
                 <label id="funny"><input id="funny" name="qualities" type="checkbox" value="funny">Funny</label><br>
                 <label id="cool"><input id="cool" name="qualities" type="checkbox" value="cool">Cool</label><br>
                 <label id="lame"><input id="lame" name="qualities" type="checkbox" value="lame">Lame</label><br>

@@ -1,53 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
-* {
-    background-color: aquamarine;
-}
-
-body {
-    font-family: ABeeZee;
+#title {
     text-align: center;
+    color: black;
 }
-
 
 #description {
     text-align: center;
+    color: black;
+}
+
+body {
+    background-color:aquamarine;
+    font-family: ABeeZee;
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.5%;
+    padding: 1%;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #name {
-    height: auto;
     border: 2px solid black;
-    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+    height: 3%;
 }
 
 #email {
-    height: auto;
     border: 2px solid black;
-    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+    height: 3%;
 }
 
 #number {
-    height: auto;
     border: 2px solid black;
-    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+    height: 3%;
 }
 
 #dropdown {
-    height: auto;
     border: 2px solid black;
-    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+    height: 3%;
 }
 
 #additional-comments {
-    height: auto;
     border: 2px solid black;
-    background-color: whitesmoke;
-}
-
-#submit {
-    background-color: whitesmoke;
-}
-
-#submit:hover {
-    background-color:thistle;
+    border-radius: 4px;
+    width: 100%;
+    height: 12%;
 }
