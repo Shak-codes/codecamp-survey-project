@@ -59,3 +59,17 @@ body {
     width: 100%;
     height: 12%;
 }
+
+#submit {
+    color: black;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 3%;
+}
+
+#submit:hover {
+    background-color: azure;
+}
+
+#submit:click
